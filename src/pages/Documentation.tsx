@@ -40,33 +40,25 @@ export function Documentation() {
       title: t('guides.sections.gettingStarted.title'),
       icon: BookOpen,
       description: t('guides.sections.gettingStarted.description'),
-      articles: Array.isArray(t('guides.sections.gettingStarted.articles', { returnObjects: true })) 
-        ? t('guides.sections.gettingStarted.articles', { returnObjects: true })
-        : []
+      articles: t('guides.sections.gettingStarted.articles', { returnObjects: true }) as string[]
     },
     {
       title: t('guides.sections.configuration.title'),
       icon: Settings,
       description: t('guides.sections.configuration.description'),
-      articles: Array.isArray(t('guides.sections.configuration.articles', { returnObjects: true }))
-        ? t('guides.sections.configuration.articles', { returnObjects: true })
-        : []
+      articles: t('guides.sections.configuration.articles', { returnObjects: true }) as string[]
     },
     {
       title: t('guides.sections.security.title'),
       icon: Shield,
       description: t('guides.sections.security.description'),
-      articles: Array.isArray(t('guides.sections.security.articles', { returnObjects: true }))
-        ? t('guides.sections.security.articles', { returnObjects: true })
-        : []
+      articles: t('guides.sections.security.articles', { returnObjects: true }) as string[]
     },
     {
       title: t('guides.sections.monitoring.title'),
       icon: Bell,
       description: t('guides.sections.monitoring.description'),
-      articles: Array.isArray(t('guides.sections.monitoring.articles', { returnObjects: true }))
-        ? t('guides.sections.monitoring.articles', { returnObjects: true })
-        : []
+      articles: t('guides.sections.monitoring.articles', { returnObjects: true }) as string[]
     }
   ];
 
