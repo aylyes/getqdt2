@@ -1,0 +1,107 @@
+{
+  "hero": {
+    "title": "Documentation",
+    "subtitle": "Everything you need to know about using QDT effectively"
+  },
+  "search": {
+    "placeholder": "Search documentation..."
+  },
+  "guides": {
+    "title": "User Guides",
+    "subtitle": "Comprehensive Documentation",
+    "sections": {
+      "gettingStarted": {
+        "title": "Getting Started",
+        "description": "Learn the basics of QDT and set up your first dashboard monitoring",
+        "articles": [
+          "Quick Start Guide",
+          "Installation & Setup",
+          "First Dashboard Configuration",
+          "Basic Monitoring Setup"
+        ]
+      },
+      "configuration": {
+        "title": "Configuration",
+        "description": "Configure QDT for your specific needs and environment",
+        "articles": [
+          "Platform Integration",
+          "Custom Rules Setup",
+          "Alert Configuration",
+          "User Management"
+        ]
+      },
+      "security": {
+        "title": "Security",
+        "description": "Understand and implement security best practices",
+        "articles": [
+          "Security Overview",
+          "Access Control",
+          "Data Protection",
+          "Compliance Guide"
+        ]
+      },
+      "monitoring": {
+        "title": "Monitoring",
+        "description": "Learn about monitoring capabilities and best practices",
+        "articles": [
+          "Real-time Monitoring",
+          "Alert Management",
+          "Performance Tracking",
+          "Quality Metrics"
+        ]
+      }
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Frequently Asked Questions",
+    "questions": {
+      "platforms": {
+        "question": "What platforms does QDT support?",
+        "answer": "QDT supports all major BI platforms including Tableau, Looker, Power BI, and Metabase. We're continuously adding support for new platforms based on user needs."
+      },
+      "monitoring": {
+        "question": "How does real-time monitoring work?",
+        "answer": "QDT uses advanced APIs and connectors to continuously monitor your dashboards. It tracks performance metrics, data freshness, and user interactions in real-time, alerting you to any issues as they occur."
+      },
+      "alerts": {
+        "question": "Can I customize alert thresholds?",
+        "answer": "Yes, QDT allows full customization of alert thresholds. You can set specific criteria for different dashboards, metrics, and user groups, ensuring you're notified only when truly necessary."
+      },
+      "security": {
+        "question": "How secure is QDT?",
+        "answer": "QDT implements enterprise-grade security measures including end-to-end encryption, role-based access control, and regular security audits. We comply with major security standards and best practices."
+      },
+      "support": {
+        "question": "What kind of support do you offer?",
+        "answer": "We provide 24/7 technical support, regular training sessions, and detailed documentation. Enterprise customers also get access to dedicated support teams and custom training programs."
+      }
+    }
+  },
+  "tutorials": {
+    "title": "Video Tutorials",
+    "subtitle": "Learn by Watching",
+    "items": [
+      {
+        "title": "Getting Started with QDT",
+        "duration": "5:30",
+        "description": "Learn the basics of setting up QDT for your organization"
+      },
+      {
+        "title": "Advanced Dashboard Monitoring",
+        "duration": "8:45",
+        "description": "Deep dive into advanced monitoring features and techniques"
+      },
+      {
+        "title": "Custom Rules and Alerts",
+        "duration": "6:15",
+        "description": "Create sophisticated monitoring rules for your dashboards"
+      }
+    ]
+  },
+  "support": {
+    "title": "Need help?",
+    "subtitle": "Our support team is here for you",
+    "cta": "Contact Support"
+  }
+}

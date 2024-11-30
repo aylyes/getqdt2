@@ -1,0 +1,71 @@
+{
+  "hero": {
+    "title": "Our Story",
+    "subtitle": "Transforming dashboard quality monitoring since 2020"
+  },
+  "mission": {
+    "title": "Our Mission",
+    "subtitle": "Empowering Data-Driven Excellence",
+    "description": "We're on a mission to help organizations maintain the highest standards of dashboard quality, ensuring data-driven decisions are based on reliable insights.",
+    "sections": {
+      "vision": {
+        "title": "Vision",
+        "description": "To become the global standard for dashboard quality assurance in the data analytics industry."
+      },
+      "values": {
+        "title": "Values",
+        "description": "Innovation, reliability, and customer success drive everything we do."
+      },
+      "impact": {
+        "title": "Impact",
+        "description": "Helping organizations make better decisions through quality data visualization."
+      }
+    }
+  },
+  "journey": {
+    "title": "Our Journey",
+    "subtitle": "Milestones That Define Us",
+    "milestones": {
+      "2020": {
+        "title": "The Beginning",
+        "description": "Founded with a vision to revolutionize dashboard quality monitoring"
+      },
+      "2021": {
+        "title": "First Major Release",
+        "description": "Launched support for Tableau and Looker integration"
+      },
+      "2022": {
+        "title": "Enterprise Expansion",
+        "description": "Added enterprise-grade features and security capabilities"
+      },
+      "2023": {
+        "title": "Global Growth",
+        "description": "Expanded to serve clients across 30+ countries"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "subtitle": "What Our Clients Say",
+    "items": [
+      {
+        "name": "Armand Totti",
+        "role": "Data Engineer",
+        "company": "Totting Corp",
+        "content": "QDT has transformed how we monitor our dashboard quality. The real-time alerts have helped us catch issues before they impact our users."
+      },
+      {
+        "name": "Michael Rodriguez",
+        "role": "BI Director",
+        "company": "Global Analytics Inc",
+        "content": "The integration with multiple BI platforms made QDT an essential tool for our organization. We've seen a 40% reduction in data quality incidents."
+      },
+      {
+        "name": "Emma Thompson",
+        "role": "Analytics Lead",
+        "company": "DataFirst Enterprise",
+        "content": "QDT's automated monitoring has saved our team countless hours. The intuitive interface makes it easy to track and improve our dashboard quality."
+      }
+    ]
+  }
+}

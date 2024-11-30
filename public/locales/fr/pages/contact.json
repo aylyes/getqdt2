@@ -1,0 +1,42 @@
+{
+  "hero": {
+    "title": "Contactez-nous",
+    "subtitle": "Contactez notre équipe pour toute question ou besoin d'assistance"
+  },
+  "form": {
+    "title": "Envoyez-nous un message",
+    "subtitle": "Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais.",
+    "fields": {
+      "name": "Nom",
+      "email": "Email",
+      "company": "Entreprise",
+      "subject": "Sujet",
+      "message": "Message",
+      "options": {
+        "sales": "Demande commerciale",
+        "support": "Support technique",
+        "demo": "Demande de démonstration",
+        "other": "Autre"
+      }
+    },
+    "submit": "Envoyer le message"
+  },
+  "offices": {
+    "title": "Nos Bureaux",
+    "subtitle": "Visitez l'un de nos bureaux ou contactez-nous via nos canaux de communication",
+    "paris": {
+      "city": "Paris",
+      "address": "12 Rue du Quatre Septembre, 75002 Paris, France",
+      "phone": "+33 1 23 45 67 89",
+      "email": "paris@qdt.com",
+      "hours": "9h00 - 18h00 CET"
+    },
+    "london": {
+      "city": "Londres",
+      "address": "25 Old Broad Street, London EC2N 1HQ, UK",
+      "phone": "+44 20 7123 4567",
+      "email": "london@qdt.com",
+      "hours": "9h00 - 18h00 GMT"
+    }
+  }
+}

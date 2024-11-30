@@ -1,0 +1,29 @@
+{
+  "general": {
+    "title": "Erreur",
+    "unexpectedError": "Une erreur inattendue s'est produite",
+    "tryAgain": "Veuillez réessayer",
+    "contactSupport": "Si le problème persiste, veuillez contacter le support"
+  },
+  "network": {
+    "title": "Erreur Réseau",
+    "description": "Impossible de se connecter au serveur",
+    "checkConnection": "Veuillez vérifier votre connexion internet"
+  },
+  "auth": {
+    "unauthorized": "Accès non autorisé",
+    "sessionExpired": "Votre session a expiré",
+    "pleaseLogin": "Veuillez vous reconnecter"
+  },
+  "notFound": {
+    "title": "Non Trouvé",
+    "description": "La ressource demandée n'a pas été trouvée",
+    "goBack": "Retour"
+  },
+  "validation": {
+    "required": "Ce champ est obligatoire",
+    "invalidEmail": "Veuillez entrer une adresse email valide",
+    "invalidPassword": "Le mot de passe doit contenir au moins 8 caractères",
+    "passwordMismatch": "Les mots de passe ne correspondent pas"
+  }
+}

@@ -1,0 +1,87 @@
+// This is your Prisma schema file
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  password  String
+  name      String?
+  role      String   @default("user") // "user", "admin"
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Job {
+  id          String    @id @default(uuid())
+  name        String
+  type        String    // "Quality Analysis", "Data Sync", "Performance Check"
+  status      String    // "active", "paused", "failed", "completed"
+  description String?
+  schedule    String?   // "hourly", "daily", "weekly", "monthly", "custom"
+  customCron  String?
+  timeout     Int       @default(30)  // in minutes
+  retries     Int       @default(3)
+  lastRun     DateTime?
+  nextRun     DateTime?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  metrics     Metric[]
+  alerts      Alert[]
+}
+
+model Connector {
+  id          String     @id @default(uuid())
+  name        String
+  type        String     // "tableau", "looker", "powerbi", "metabase"
+  status      String     // "connected", "disconnected", "error"
+  config      String     // JSON string for connector configuration
+  lastSync    DateTime?
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+  scenarios   Scenario[]
+}
+
+model Scenario {
+  id                String    @id @default(uuid())
+  name              String
+  description       String?
+  status            String    // "active", "inactive", "running", "failed"
+  format            String    // "sql", "csv", "yaml", "json"
+  sourceConnector   Connector @relation(fields: [sourceConnectorId], references: [id])
+  sourceConnectorId String
+  sourceConfig      String    // JSON string for source configuration
+  validationConfig  String    // JSON string for validation configuration
+  lastRun          DateTime?
+  steps            Int       @default(0)
+  createdAt        DateTime  @default(now())
+  updatedAt        DateTime  @updatedAt
+}
+
+model Metric {
+  id        String   @id @default(uuid())
+  jobId     String
+  job       Job      @relation(fields: [jobId], references: [id])
+  name      String
+  value     Float
+  unit      String?
+  timestamp DateTime @default(now())
+  type      String   // "performance", "quality", "usage"
+}
+
+model Alert {
+  id          String   @id @default(uuid())
+  jobId       String
+  job         Job      @relation(fields: [jobId], references: [id])
+  type        String   // "info", "warning", "error", "critical"
+  message     String
+  status      String   // "active", "resolved", "acknowledged"
+  createdAt   DateTime @default(now())
+  resolvedAt  DateTime?
+}

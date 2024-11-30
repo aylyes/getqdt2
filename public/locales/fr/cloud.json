@@ -1,0 +1,130 @@
+{
+  "jobs": {
+    "title": "Gestion des Tâches",
+    "tab": "Tâches",
+    "addJob": "Ajouter une Tâche",
+    "jobDetails": "Détails de la Tâche",
+    "metrics": {
+      "executionTime": "Temps d'Exécution",
+      "successRate": "Taux de Réussite",
+      "dataQualityScore": "Score de Qualité des Données",
+      "totalRecords": "Total des Enregistrements",
+      "valid": "Valide",
+      "warning": "Avertissement",
+      "error": "Erreur"
+    },
+    "status": {
+      "running": "En cours",
+      "paused": "En pause",
+      "failed": "Échoué",
+      "completed": "Terminé",
+      "success": "Succès"
+    },
+    "form": {
+      "name": "Nom",
+      "type": "Type",
+      "status": "Statut",
+      "lastRun": "Dernière Exécution",
+      "nextRun": "Prochaine Exécution",
+      "actions": "Actions"
+    },
+    "actions": {
+      "viewDetails": "Voir les Détails",
+      "runNow": "Exécuter",
+      "running": "En cours...",
+      "pause": "Mettre en Pause",
+      "resume": "Reprendre",
+      "delete": "Supprimer"
+    },
+    "charts": {
+      "executionTimeTrend": "Tendance du Temps d'Exécution",
+      "qualityDistribution": "Distribution de la Qualité des Données"
+    },
+    "executionHistory": {
+      "title": "Historique d'Exécution",
+      "columns": {
+        "timestamp": "Horodatage",
+        "status": "Statut",
+        "duration": "Durée",
+        "records": "Enregistrements Traités"
+      }
+    }
+  },
+  "connectors": {
+    "title": "Gestion des Connecteurs",
+    "tab": "Connecteurs",
+    "addConnector": "Ajouter un Connecteur",
+    "details": "Détails du Connecteur",
+    "status": {
+      "connected": "Connecté",
+      "disconnected": "Déconnecté",
+      "error": "Erreur",
+      "syncing": "Synchronisation"
+    },
+    "actions": {
+      "testConnection": "Tester la Connexion",
+      "sync": "Synchroniser",
+      "syncing": "Synchronisation...",
+      "configure": "Configurer",
+      "remove": "Supprimer"
+    },
+    "messages": {
+      "testSuccess": "Test de connexion réussi",
+      "syncStarted": "Synchronisation démarrée avec succès",
+      "configUpdated": "Configuration mise à jour avec succès"
+    },
+    "form": {
+      "name": "Nom du Connecteur",
+      "type": "Type",
+      "url": "URL",
+      "credentials": "Identifiants",
+      "configuration": "Configuration",
+      "advanced": "Paramètres Avancés"
+    }
+  },
+  "scenarios": {
+    "title": "Gestion des Scénarios",
+    "tab": "Scénarios",
+    "addScenario": "Ajouter un Scénario",
+    "details": "Détails du Scénario",
+    "status": {
+      "active": "Actif",
+      "inactive": "Inactif",
+      "running": "En cours",
+      "failed": "Échoué"
+    },
+    "actions": {
+      "run": "Exécuter le Scénario",
+      "running": "En cours...",
+      "edit": "Modifier",
+      "delete": "Supprimer"
+    },
+    "form": {
+      "name": "Nom du Scénario",
+      "description": "Description",
+      "format": "Format",
+      "sourceConfig": "Configuration de la Source",
+      "validationConfig": "Configuration de la Validation"
+    },
+    "messages": {
+      "created": "Scénario créé avec succès",
+      "updated": "Scénario mis à jour avec succès",
+      "deleted": "Scénario supprimé avec succès"
+    }
+  },
+  "common": {
+    "loading": "Chargement...",
+    "configuration": "Configuration",
+    "metrics": "Statut et Métriques",
+    "history": "Historique"
+  },
+  "errors": {
+    "failedToLoadJobs": "Échec du chargement des tâches",
+    "failedToLoadJobDetails": "Échec du chargement des détails de la tâche",
+    "failedToLoadConnectors": "Échec du chargement des connecteurs",
+    "failedToLoadScenarios": "Échec du chargement des scénarios",
+    "jobNotFound": "Tâche non trouvée",
+    "connectorNotFound": "Connecteur non trouvé",
+    "scenarioNotFound": "Scénario non trouvé"
+  }
+}

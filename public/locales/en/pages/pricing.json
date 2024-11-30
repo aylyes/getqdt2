@@ -1,0 +1,115 @@
+{
+  "hero": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Choose the perfect plan for your team's dashboard quality monitoring needs"
+  },
+  "tiers": {
+    "starter": {
+      "name": "Starter",
+      "price": "49",
+      "description": "Perfect for small teams getting started with dashboard monitoring",
+      "features": [
+        "Up to 10 dashboards",
+        "Basic quality metrics",
+        "Email alerts",
+        "Daily monitoring",
+        "Community support",
+        "1 team member"
+      ],
+      "cta": "Start Free Trial"
+    },
+    "professional": {
+      "name": "Professional",
+      "price": "149",
+      "description": "Ideal for growing teams with advanced monitoring needs",
+      "features": [
+        "Up to 50 dashboards",
+        "Advanced quality metrics",
+        "Real-time alerts",
+        "Continuous monitoring",
+        "Priority support",
+        "Up to 5 team members",
+        "Custom rules engine",
+        "API access",
+        "Performance analytics"
+      ],
+      "cta": "Start Free Trial"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price": "Custom",
+      "description": "Tailored solutions for large organizations",
+      "features": [
+        "Unlimited dashboards",
+        "Custom quality metrics",
+        "Advanced alerting system",
+        "Real-time monitoring",
+        "24/7 dedicated support",
+        "Unlimited team members",
+        "Custom integration",
+        "Full API access",
+        "Advanced analytics",
+        "SLA guarantee",
+        "Custom deployment"
+      ],
+      "cta": "Contact Sales"
+    }
+  },
+  "features": {
+    "title": "Enterprise-Grade Features",
+    "subtitle": "Everything you need to ensure the highest quality of your dashboards",
+    "items": {
+      "security": {
+        "title": "Enterprise Security",
+        "description": "SOC 2 Type II certified with advanced security controls"
+      },
+      "monitoring": {
+        "title": "Real-time Monitoring",
+        "description": "Monitor your dashboards in real-time with instant alerts"
+      },
+      "collaboration": {
+        "title": "Team Collaboration",
+        "description": "Work together efficiently with role-based access control"
+      },
+      "analytics": {
+        "title": "Advanced Analytics",
+        "description": "Deep insights into your dashboard performance and usage"
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Round-the-clock support for enterprise customers"
+      },
+      "integration": {
+        "title": "Custom Integration",
+        "description": "Integrate with your existing tools and workflows"
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Have questions? We're here to help.",
+    "questions": {
+      "switch": {
+        "question": "Can I switch plans later?",
+        "answer": "Yes, you can upgrade or downgrade your plan at any time. Changes will be reflected in your next billing cycle."
+      },
+      "payment": {
+        "question": "What payment methods do you accept?",
+        "answer": "We accept all major credit cards, wire transfers, and can arrange custom payment terms for enterprise customers."
+      },
+      "trial": {
+        "question": "Is there a free trial?",
+        "answer": "Yes, we offer a 14-day free trial for all plans. No credit card required to start."
+      },
+      "custom": {
+        "question": "Do you offer custom solutions?",
+        "answer": "Yes, our enterprise plan can be customized to meet your specific needs. Contact our sales team to learn more."
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to get started?",
+    "subtitle": "Start your free trial today.",
+    "button": "Get Started"
+  }
+}

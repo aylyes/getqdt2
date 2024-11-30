@@ -1,0 +1,42 @@
+{
+  "hero": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our team for any questions or support needs"
+  },
+  "form": {
+    "title": "Send us a message",
+    "subtitle": "Fill out the form below and we'll get back to you as soon as possible.",
+    "fields": {
+      "name": "Name",
+      "email": "Email",
+      "company": "Company",
+      "subject": "Subject",
+      "message": "Message",
+      "options": {
+        "sales": "Sales Inquiry",
+        "support": "Technical Support",
+        "demo": "Request Demo",
+        "other": "Other"
+      }
+    },
+    "submit": "Send Message"
+  },
+  "offices": {
+    "title": "Our Offices",
+    "subtitle": "Visit us at one of our global offices or reach out through our contact channels",
+    "paris": {
+      "city": "Paris",
+      "address": "12 Rue du Quatre Septembre, 75002 Paris, France",
+      "phone": "+33 1 23 45 67 89",
+      "email": "paris@qdt.com",
+      "hours": "9:00 AM - 6:00 PM CET"
+    },
+    "london": {
+      "city": "London",
+      "address": "25 Old Broad Street, London EC2N 1HQ, UK",
+      "phone": "+44 20 7123 4567",
+      "email": "london@qdt.com",
+      "hours": "9:00 AM - 6:00 PM GMT"
+    }
+  }
+}

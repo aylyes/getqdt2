@@ -1,0 +1,130 @@
+{
+  "jobs": {
+    "title": "Jobs Management",
+    "tab": "Jobs",
+    "addJob": "Add Job",
+    "jobDetails": "Job Details",
+    "metrics": {
+      "executionTime": "Execution Time",
+      "successRate": "Success Rate",
+      "dataQualityScore": "Data Quality Score",
+      "totalRecords": "Total Records",
+      "valid": "Valid",
+      "warning": "Warning",
+      "error": "Error"
+    },
+    "status": {
+      "running": "Running",
+      "paused": "Paused",
+      "failed": "Failed",
+      "completed": "Completed",
+      "success": "Success"
+    },
+    "form": {
+      "name": "Name",
+      "type": "Type",
+      "status": "Status",
+      "lastRun": "Last Run",
+      "nextRun": "Next Run",
+      "actions": "Actions"
+    },
+    "actions": {
+      "viewDetails": "View Details",
+      "runNow": "Run Now",
+      "running": "Running...",
+      "pause": "Pause",
+      "resume": "Resume",
+      "delete": "Delete"
+    },
+    "charts": {
+      "executionTimeTrend": "Execution Time Trend",
+      "qualityDistribution": "Data Quality Distribution"
+    },
+    "executionHistory": {
+      "title": "Execution History",
+      "columns": {
+        "timestamp": "Timestamp",
+        "status": "Status",
+        "duration": "Duration",
+        "records": "Records Processed"
+      }
+    }
+  },
+  "connectors": {
+    "title": "Connectors Management",
+    "tab": "Connectors",
+    "addConnector": "Add Connector",
+    "details": "Connector Details",
+    "status": {
+      "connected": "Connected",
+      "disconnected": "Disconnected",
+      "error": "Error",
+      "syncing": "Syncing"
+    },
+    "actions": {
+      "testConnection": "Test Connection",
+      "sync": "Sync Now",
+      "syncing": "Syncing...",
+      "configure": "Configure",
+      "remove": "Remove"
+    },
+    "messages": {
+      "testSuccess": "Connection test successful",
+      "syncStarted": "Sync started successfully",
+      "configUpdated": "Configuration updated successfully"
+    },
+    "form": {
+      "name": "Connector Name",
+      "type": "Type",
+      "url": "URL",
+      "credentials": "Credentials",
+      "configuration": "Configuration",
+      "advanced": "Advanced Settings"
+    }
+  },
+  "scenarios": {
+    "title": "Scenarios Management",
+    "tab": "Scenarios",
+    "addScenario": "Add Scenario",
+    "details": "Scenario Details",
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "running": "Running",
+      "failed": "Failed"
+    },
+    "actions": {
+      "run": "Run Scenario",
+      "running": "Running...",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "form": {
+      "name": "Scenario Name",
+      "description": "Description",
+      "format": "Format",
+      "sourceConfig": "Source Configuration",
+      "validationConfig": "Validation Configuration"
+    },
+    "messages": {
+      "created": "Scenario created successfully",
+      "updated": "Scenario updated successfully",
+      "deleted": "Scenario deleted successfully"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "configuration": "Configuration",
+    "metrics": "Status & Metrics",
+    "history": "History"
+  },
+  "errors": {
+    "failedToLoadJobs": "Failed to load jobs",
+    "failedToLoadJobDetails": "Failed to load job details",
+    "failedToLoadConnectors": "Failed to load connectors",
+    "failedToLoadScenarios": "Failed to load scenarios",
+    "jobNotFound": "Job not found",
+    "connectorNotFound": "Connector not found",
+    "scenarioNotFound": "Scenario not found"
+  }
+}

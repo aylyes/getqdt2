@@ -1,0 +1,39 @@
+{
+  "navigation": {
+    "features": "Fonctionnalités",
+    "about": "À propos",
+    "docs": "Documentation",
+    "contact": "Contact",
+    "cloud": "Cloud",
+    "logout": "Déconnexion"
+  },
+  "footer": {
+    "product": "Produit",
+    "support": "Support",
+    "company": "Entreprise",
+    "legal": "Mentions légales",
+    "allRightsReserved": "Tous droits réservés"
+  },
+  "actions": {
+    "getStarted": "Commencer",
+    "learnMore": "En savoir plus",
+    "contactUs": "Nous contacter",
+    "requestDemo": "Demander une démo",
+    "startFreeTrial": "Essai gratuit",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "view": "Voir",
+    "run": "Exécuter",
+    "add": "Ajouter"
+  },
+  "status": {
+    "active": "Actif",
+    "inactive": "Inactif",
+    "running": "En cours",
+    "completed": "Terminé",
+    "failed": "Échoué",
+    "pending": "En attente"
+  }
+}

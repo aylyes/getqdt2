@@ -1,0 +1,115 @@
+{
+  "hero": {
+    "title": "Prix Simples et Transparents",
+    "subtitle": "Choisissez le forfait parfait pour les besoins de surveillance de la qualité des tableaux de bord de votre équipe"
+  },
+  "tiers": {
+    "starter": {
+      "name": "Débutant",
+      "price": "49",
+      "description": "Parfait pour les petites équipes qui débutent avec la surveillance des tableaux de bord",
+      "features": [
+        "Jusqu'à 10 tableaux de bord",
+        "Métriques de qualité basiques",
+        "Alertes par email",
+        "Surveillance quotidienne",
+        "Support communautaire",
+        "1 membre d'équipe"
+      ],
+      "cta": "Commencer l'essai gratuit"
+    },
+    "professional": {
+      "name": "Professionnel",
+      "price": "149",
+      "description": "Idéal pour les équipes en croissance avec des besoins de surveillance avancés",
+      "features": [
+        "Jusqu'à 50 tableaux de bord",
+        "Métriques de qualité avancées",
+        "Alertes en temps réel",
+        "Surveillance continue",
+        "Support prioritaire",
+        "Jusqu'à 5 membres d'équipe",
+        "Moteur de règles personnalisées",
+        "Accès API",
+        "Analyses de performance"
+      ],
+      "cta": "Commencer l'essai gratuit"
+    },
+    "enterprise": {
+      "name": "Entreprise",
+      "price": "Sur mesure",
+      "description": "Solutions sur mesure pour les grandes organisations",
+      "features": [
+        "Tableaux de bord illimités",
+        "Métriques de qualité personnalisées",
+        "Système d'alertes avancé",
+        "Surveillance en temps réel",
+        "Support dédié 24/7",
+        "Membres d'équipe illimités",
+        "Intégration personnalisée",
+        "Accès API complet",
+        "Analyses avancées",
+        "Garantie SLA",
+        "Déploiement personnalisé"
+      ],
+      "cta": "Contacter les ventes"
+    }
+  },
+  "features": {
+    "title": "Fonctionnalités de Niveau Entreprise",
+    "subtitle": "Tout ce dont vous avez besoin pour assurer la meilleure qualité de vos tableaux de bord",
+    "items": {
+      "security": {
+        "title": "Sécurité Entreprise",
+        "description": "Certifié SOC 2 Type II avec contrôles de sécurité avancés"
+      },
+      "monitoring": {
+        "title": "Surveillance en Temps Réel",
+        "description": "Surveillez vos tableaux de bord en temps réel avec des alertes instantanées"
+      },
+      "collaboration": {
+        "title": "Collaboration d'Équipe",
+        "description": "Travaillez efficacement avec un contrôle d'accès basé sur les rôles"
+      },
+      "analytics": {
+        "title": "Analyses Avancées",
+        "description": "Aperçus détaillés des performances et de l'utilisation de vos tableaux de bord"
+      },
+      "support": {
+        "title": "Support 24/7",
+        "description": "Support permanent pour les clients entreprise"
+      },
+      "integration": {
+        "title": "Intégration Personnalisée",
+        "description": "Intégrez avec vos outils et flux de travail existants"
+      }
+    }
+  },
+  "faq": {
+    "title": "Questions Fréquentes",
+    "subtitle": "Vous avez des questions ? Nous sommes là pour vous aider.",
+    "questions": {
+      "switch": {
+        "question": "Puis-je changer de forfait plus tard ?",
+        "answer": "Oui, vous pouvez passer à un forfait supérieur ou inférieur à tout moment. Les changements seront reflétés dans votre prochain cycle de facturation."
+      },
+      "payment": {
+        "question": "Quels modes de paiement acceptez-vous ?",
+        "answer": "Nous acceptons toutes les principales cartes de crédit, les virements bancaires, et pouvons organiser des conditions de paiement personnalisées pour les clients entreprise."
+      },
+      "trial": {
+        "question": "Y a-t-il un essai gratuit ?",
+        "answer": "Oui, nous offrons un essai gratuit de 14 jours pour tous les forfaits. Aucune carte de crédit n'est requise pour commencer."
+      },
+      "custom": {
+        "question": "Proposez-vous des solutions personnalisées ?",
+        "answer": "Oui, notre forfait entreprise peut être personnalisé pour répondre à vos besoins spécifiques. Contactez notre équipe commerciale pour en savoir plus."
+      }
+    }
+  },
+  "cta": {
+    "title": "Prêt à commencer ?",
+    "subtitle": "Commencez votre essai gratuit aujourd'hui.",
+    "button": "Commencer"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "hero": {
+    "title": "Notre Histoire",
+    "subtitle": "Transformer la surveillance de la qualité des tableaux de bord depuis 2020"
+  },
+  "mission": {
+    "title": "Notre Mission",
+    "subtitle": "Favoriser l'Excellence Basée sur les Données",
+    "description": "Notre mission est d'aider les organisations à maintenir les plus hauts standards de qualité des tableaux de bord, garantissant que les décisions basées sur les données reposent sur des informations fiables.",
+    "sections": {
+      "vision": {
+        "title": "Vision",
+        "description": "Devenir la référence mondiale pour l'assurance qualité des tableaux de bord dans l'industrie de l'analyse de données."
+      },
+      "values": {
+        "title": "Valeurs",
+        "description": "L'innovation, la fiabilité et le succès client guident toutes nos actions."
+      },
+      "impact": {
+        "title": "Impact",
+        "description": "Aider les organisations à prendre de meilleures décisions grâce à une visualisation de données de qualité."
+      }
+    }
+  },
+  "journey": {
+    "title": "Notre Parcours",
+    "subtitle": "Les Étapes Qui Nous Définissent",
+    "milestones": {
+      "2020": {
+        "title": "Le Début",
+        "description": "Fondé avec la vision de révolutionner la surveillance de la qualité des tableaux de bord"
+      },
+      "2021": {
+        "title": "Première Version Majeure",
+        "description": "Lancement du support pour l'intégration Tableau et Looker"
+      },
+      "2022": {
+        "title": "Expansion Entreprise",
+        "description": "Ajout de fonctionnalités et de sécurité de niveau entreprise"
+      },
+      "2023": {
+        "title": "Croissance Mondiale",
+        "description": "Extension pour servir des clients dans plus de 30 pays"
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Témoignages",
+    "subtitle": "Ce Que Disent Nos Clients",
+    "items": [
+      {
+        "name": "Armand Totti",
+        "role": "Ingénieur Data",
+        "company": "Totting Corp",
+        "content": "QDT a transformé notre façon de surveiller la qualité des tableaux de bord. Les alertes en temps réel nous ont aidés à détecter les problèmes avant qu'ils n'impactent nos utilisateurs."
+      },
+      {
+        "name": "Michael Rodriguez",
+        "role": "Directeur BI",
+        "company": "Global Analytics Inc",
+        "content": "L'intégration avec plusieurs plateformes BI a fait de QDT un outil essentiel pour notre organisation. Nous avons constaté une réduction de 40% des incidents de qualité des données."
+      },
+      {
+        "name": "Emma Thompson",
+        "role": "Responsable Analytics",
+        "company": "DataFirst Enterprise",
+        "content": "La surveillance automatisée de QDT a fait gagner un temps précieux à notre équipe. L'interface intuitive facilite le suivi et l'amélioration de la qualité de nos tableaux de bord."
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "navigation": {
+    "features": "Features",
+    "about": "About",
+    "docs": "Documentation",
+    "contact": "Contact",
+    "cloud": "Cloud",
+    "logout": "Logout"
+  },
+  "footer": {
+    "product": "Product",
+    "support": "Support",
+    "company": "Company",
+    "legal": "Legal",
+    "allRightsReserved": "All rights reserved"
+  },
+  "actions": {
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "contactUs": "Contact Us",
+    "requestDemo": "Request Demo",
+    "startFreeTrial": "Start Free Trial",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "run": "Run",
+    "add": "Add"
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "running": "Running",
+    "completed": "Completed",
+    "failed": "Failed",
+    "pending": "Pending"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "hero": {
+    "title": "Fonctionnalités",
+    "subtitle": "Tout ce dont vous avez besoin pour assurer la qualité des tableaux de bord sur vos plateformes BI"
+  },
+  "sections": {
+    "core": {
+      "title": "Fonctionnalités Principales",
+      "subtitle": "Des Outils Puissants pour l'Assurance Qualité"
+    },
+    "main": {
+      "realTimeMonitoring": {
+        "title": "Surveillance en Temps Réel",
+        "description": "Surveillez les performances et la qualité des tableaux de bord en temps réel sur toutes vos plateformes BI.",
+        "details": {
+          "tracking": "Suivi des performances en direct",
+          "alerts": "Alertes qualité instantanées",
+          "analytics": "Analyses utilisateur en temps réel",
+          "healthChecks": "Vérifications automatisées"
+        }
+      },
+      "multiPlatform": {
+        "title": "Intégration Multi-Plateformes",
+        "description": "Connectez-vous facilement à tous les principaux outils BI pour centraliser votre gestion de la qualité.",
+        "details": {
+          "tableau": "Intégration Tableau",
+          "looker": "Analytiques Looker",
+          "powerbi": "Support Power BI",
+          "custom": "Connecteurs personnalisés"
+        }
+      },
+      "smartAlerting": {
+        "title": "Alertes Intelligentes",
+        "description": "Recevez des notifications intelligentes lors de problèmes de qualité, avec contexte et actions recommandées.",
+        "details": {
+          "thresholds": "Seuils personnalisables",
+          "priority": "Alertes basées sur la priorité",
+          "rootCause": "Analyse des causes",
+          "recommendations": "Recommandations d'actions"
+        }
+      },
+      "performance": {
+        "title": "Analyses de Performance",
+        "description": "Aperçus détaillés des performances et des modèles d'utilisation.",
+        "details": {
+          "loadTime": "Analyse des temps de chargement",
+          "usage": "Modèles d'utilisation",
+          "resources": "Utilisation des ressources",
+          "optimization": "Suggestions d'optimisation"
+        }
+      }
+    },
+    "technical": {
+      "title": "Fonctionnalités Techniques",
+      "subtitle": "Conçu pour l'Entreprise",
+      "security": {
+        "title": "Sécurité Avancée",
+        "description": "Sécurité de niveau entreprise avec contrôle d'accès basé sur les rôles et journalisation d'audit.",
+        "benefits": {
+          "sso": "Intégration SSO",
+          "rbac": "Accès basé sur les rôles",
+          "audit": "Pistes d'audit",
+          "encryption": "Chiffrement des données"
+        }
+      },
+      "rules": {
+        "title": "Moteur de Règles Personnalisées",
+        "description": "Créez des règles de qualité sophistiquées adaptées aux besoins de votre organisation.",
+        "benefits": {
+          "builder": "Constructeur de règles visuel",
+          "templates": "Bibliothèque de modèles",
+          "metrics": "Métriques personnalisées",
+          "chaining": "Chaînage de règles"
+        }
+      },
+      "testing": {
+        "title": "Tests Automatisés",
+        "description": "Automatisez les contrôles de qualité et les tests dans votre écosystème de tableaux de bord.",
+        "benefits": {
+          "scheduled": "Tests programmés",
+          "regression": "Tests de régression",
+          "load": "Tests de charge",
+          "validation": "Validation multi-plateformes"
+        }
+      }
+    }
+  },
+  "demo": {
+    "title": "Voir en Action",
+    "subtitle": "Comment Fonctionne QDT",
+    "cta": {
+      "title": "Démo Interactive",
+      "button": "Regarder la Démo"
+    }
+  },
+  "comparison": {
+    "title": "Comparaison Concurrentielle",
+    "subtitle": "QDT vs. Autres Solutions",
+    "columns": {
+      "feature": "Fonctionnalité",
+      "others": "Autres",
+      "details": "Détails"
+    },
+    "realTime": {
+      "title": "Surveillance en Temps Réel",
+      "description": "Surveillez les tableaux de bord en temps réel sur toutes les plateformes"
+    },
+    "multiPlatform": {
+      "title": "Support Multi-Plateformes",
+      "description": "Interface unique pour tous les principaux outils BI"
+    },
+    "alerts": {
+      "title": "Alertes Intelligentes",
+      "description": "Alertes intelligentes avec contexte et recommandations"
+    },
+    "rules": {
+      "title": "Moteur de Règles Personnalisées",
+      "description": "Constructeur de règles visuel avec modèles"
+    },
+    "performance": {
+      "title": "Analyses de Performance",
+      "description": "Surveillance complète des performances"
+    },
+    "testing": {
+      "title": "Tests Automatisés",
+      "description": "Contrôles de qualité et tests automatisés"
+    }
+  },
+  "cta": {
+    "title": "Prêt à commencer ?",
+    "subtitle": "Essayez QDT aujourd'hui et transformez la qualité de vos tableaux de bord.",
+    "button": "Commencer"
+  }
+}

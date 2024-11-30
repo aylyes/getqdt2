@@ -1,0 +1,107 @@
+{
+  "hero": {
+    "title": "Documentation",
+    "subtitle": "Tout ce que vous devez savoir pour utiliser QDT efficacement"
+  },
+  "search": {
+    "placeholder": "Rechercher dans la documentation..."
+  },
+  "guides": {
+    "title": "Guides Utilisateur",
+    "subtitle": "Documentation Complète",
+    "sections": {
+      "gettingStarted": {
+        "title": "Premiers Pas",
+        "description": "Apprenez les bases de QDT et configurez votre première surveillance de tableau de bord",
+        "articles": [
+          "Guide de Démarrage Rapide",
+          "Installation et Configuration",
+          "Premier Tableau de Bord",
+          "Configuration de Base"
+        ]
+      },
+      "configuration": {
+        "title": "Configuration",
+        "description": "Configurez QDT selon vos besoins spécifiques",
+        "articles": [
+          "Intégration de Plateforme",
+          "Configuration des Règles",
+          "Configuration des Alertes",
+          "Gestion des Utilisateurs"
+        ]
+      },
+      "security": {
+        "title": "Sécurité",
+        "description": "Comprendre et mettre en œuvre les meilleures pratiques de sécurité",
+        "articles": [
+          "Aperçu de la Sécurité",
+          "Contrôle d'Accès",
+          "Protection des Données",
+          "Guide de Conformité"
+        ]
+      },
+      "monitoring": {
+        "title": "Surveillance",
+        "description": "Découvrez les capacités de surveillance et les meilleures pratiques",
+        "articles": [
+          "Surveillance en Temps Réel",
+          "Gestion des Alertes",
+          "Suivi des Performances",
+          "Métriques de Qualité"
+        ]
+      }
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "Questions Fréquemment Posées",
+    "questions": {
+      "platforms": {
+        "question": "Quelles plateformes QDT supporte-t-il ?",
+        "answer": "QDT prend en charge toutes les principales plateformes BI, notamment Tableau, Looker, Power BI et Metabase. Nous ajoutons continuellement le support de nouvelles plateformes selon les besoins des utilisateurs."
+      },
+      "monitoring": {
+        "question": "Comment fonctionne la surveillance en temps réel ?",
+        "answer": "QDT utilise des API et des connecteurs avancés pour surveiller en continu vos tableaux de bord. Il suit les métriques de performance, la fraîcheur des données et les interactions des utilisateurs en temps réel, vous alertant de tout problème dès qu'il survient."
+      },
+      "alerts": {
+        "question": "Puis-je personnaliser les seuils d'alerte ?",
+        "answer": "Oui, QDT permet une personnalisation complète des seuils d'alerte. Vous pouvez définir des critères spécifiques pour différents tableaux de bord, métriques et groupes d'utilisateurs."
+      },
+      "security": {
+        "question": "Quel est le niveau de sécurité de QDT ?",
+        "answer": "QDT met en œuvre des mesures de sécurité de niveau entreprise, notamment le chiffrement de bout en bout, le contrôle d'accès basé sur les rôles et des audits de sécurité réguliers."
+      },
+      "support": {
+        "question": "Quel type de support proposez-vous ?",
+        "answer": "Nous fournissons un support technique 24/7, des sessions de formation régulières et une documentation détaillée. Les clients entreprise ont également accès à des équipes de support dédiées."
+      }
+    }
+  },
+  "tutorials": {
+    "title": "Tutoriels Vidéo",
+    "subtitle": "Apprenez en Regardant",
+    "items": [
+      {
+        "title": "Débuter avec QDT",
+        "duration": "5:30",
+        "description": "Apprenez les bases de la configuration de QDT pour votre organisation"
+      },
+      {
+        "title": "Surveillance Avancée des Tableaux de Bord",
+        "duration": "8:45",
+        "description": "Plongez dans les fonctionnalités et techniques de surveillance avancées"
+      },
+      {
+        "title": "Règles et Alertes Personnalisées",
+        "duration": "6:15",
+        "description": "Créez des règles de surveillance sophistiquées pour vos tableaux de bord"
+      }
+    ]
+  },
+  "support": {
+    "title": "Besoin d'aide ?",
+    "subtitle": "Notre équipe de support est là pour vous",
+    "cta": "Contacter le Support"
+  }
+}

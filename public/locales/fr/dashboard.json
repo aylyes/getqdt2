@@ -1,0 +1,29 @@
+{
+  "jobs": {
+    "title": "Gestion des tâches",
+    "addJob": "Ajouter une tâche",
+    "columns": {
+      "name": "Nom",
+      "status": "Statut",
+      "type": "Type",
+      "lastRun": "Dernière exécution",
+      "nextRun": "Prochaine exécution",
+      "actions": "Actions"
+    }
+  },
+  "connectors": {
+    "title": "Gestion des connecteurs",
+    "addConnector": "Ajouter un connecteur",
+    "type": "Type",
+    "lastSync": "Dernière synchronisation",
+    "configure": "Configurer",
+    "remove": "Supprimer"
+  },
+  "scenarios": {
+    "title": "Gestion des scénarios",
+    "addScenario": "Ajouter un scénario",
+    "format": "Format",
+    "lastRun": "Dernière exécution",
+    "steps": "Étapes"
+  }
+}

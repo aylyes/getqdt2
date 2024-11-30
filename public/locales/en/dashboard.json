@@ -1,0 +1,29 @@
+{
+  "jobs": {
+    "title": "Jobs Management",
+    "addJob": "Add Job",
+    "columns": {
+      "name": "Name",
+      "status": "Status",
+      "type": "Type",
+      "lastRun": "Last Run",
+      "nextRun": "Next Run",
+      "actions": "Actions"
+    }
+  },
+  "connectors": {
+    "title": "Connectors Management",
+    "addConnector": "Add Connector",
+    "type": "Type",
+    "lastSync": "Last Sync",
+    "configure": "Configure",
+    "remove": "Remove"
+  },
+  "scenarios": {
+    "title": "Scenarios Management",
+    "addScenario": "Add Scenario",
+    "format": "Format",
+    "lastRun": "Last Run",
+    "steps": "Steps"
+  }
+}

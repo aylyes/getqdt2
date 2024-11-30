@@ -1,0 +1,134 @@
+{
+  "hero": {
+    "title": "Features",
+    "subtitle": "Everything you need to ensure dashboard quality across your BI platforms"
+  },
+  "sections": {
+    "core": {
+      "title": "Core Features",
+      "subtitle": "Powerful Tools for Quality Assurance"
+    },
+    "main": {
+      "realTimeMonitoring": {
+        "title": "Real-time Monitoring",
+        "description": "Monitor dashboard performance and data quality in real-time across all your BI platforms.",
+        "details": {
+          "tracking": "Live performance tracking",
+          "alerts": "Instant quality alerts",
+          "analytics": "Real-time user analytics",
+          "healthChecks": "Automated health checks"
+        }
+      },
+      "multiPlatform": {
+        "title": "Multi-Platform Integration",
+        "description": "Seamlessly connect with all major BI tools to centralize your quality management.",
+        "details": {
+          "tableau": "Tableau integration",
+          "looker": "Looker analytics",
+          "powerbi": "Power BI support",
+          "custom": "Custom connectors"
+        }
+      },
+      "smartAlerting": {
+        "title": "Smart Alerting",
+        "description": "Get intelligent notifications when quality issues arise, with context and recommended actions.",
+        "details": {
+          "thresholds": "Customizable thresholds",
+          "priority": "Priority-based alerts",
+          "rootCause": "Root cause analysis",
+          "recommendations": "Action recommendations"
+        }
+      },
+      "performance": {
+        "title": "Performance Analytics",
+        "description": "Deep insights into dashboard performance and usage patterns.",
+        "details": {
+          "loadTime": "Load time analysis",
+          "usage": "Usage patterns",
+          "resources": "Resource utilization",
+          "optimization": "Optimization suggestions"
+        }
+      }
+    },
+    "technical": {
+      "title": "Technical Features",
+      "subtitle": "Built for Enterprise",
+      "security": {
+        "title": "Advanced Security",
+        "description": "Enterprise-grade security with role-based access control and audit logging.",
+        "benefits": {
+          "sso": "SSO integration",
+          "rbac": "Role-based access",
+          "audit": "Audit trails",
+          "encryption": "Data encryption"
+        }
+      },
+      "rules": {
+        "title": "Custom Rules Engine",
+        "description": "Create sophisticated quality rules tailored to your organization's needs.",
+        "benefits": {
+          "builder": "Visual rule builder",
+          "templates": "Template library",
+          "metrics": "Custom metrics",
+          "chaining": "Rule chaining"
+        }
+      },
+      "testing": {
+        "title": "Automated Testing",
+        "description": "Automate quality checks and testing across your dashboard ecosystem.",
+        "benefits": {
+          "scheduled": "Scheduled tests",
+          "regression": "Regression testing",
+          "load": "Load testing",
+          "validation": "Cross-platform validation"
+        }
+      }
+    }
+  },
+  "demo": {
+    "title": "See It in Action",
+    "subtitle": "How QDT Works",
+    "cta": {
+      "title": "Interactive Demo",
+      "button": "Watch Demo"
+    }
+  },
+  "comparison": {
+    "title": "Competitive Comparison",
+    "subtitle": "QDT vs. Other Solutions",
+    "columns": {
+      "feature": "Feature",
+      "others": "Others",
+      "details": "Details"
+    },
+    "realTime": {
+      "title": "Real-time Monitoring",
+      "description": "Monitor dashboards in real-time across all platforms"
+    },
+    "multiPlatform": {
+      "title": "Multi-Platform Support",
+      "description": "Single interface for all major BI tools"
+    },
+    "alerts": {
+      "title": "Smart Alerting",
+      "description": "Intelligent alerts with context and recommendations"
+    },
+    "rules": {
+      "title": "Custom Rules Engine",
+      "description": "Visual rule builder with templates"
+    },
+    "performance": {
+      "title": "Performance Analytics",
+      "description": "Comprehensive performance monitoring"
+    },
+    "testing": {
+      "title": "Automated Testing",
+      "description": "Automated quality checks and testing"
+    }
+  },
+  "cta": {
+    "title": "Ready to get started?",
+    "subtitle": "Try QDT today and transform your dashboard quality.",
+    "button": "Get Started"
+  }
+}
