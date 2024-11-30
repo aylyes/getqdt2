@@ -13,6 +13,13 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
+interface Guide {
+  title: string;
+  icon: React.ElementType;
+  description: string;
+  articles: string[];
+}
+
 interface FAQItem {
   question: string;
   answer: string;
@@ -28,43 +35,50 @@ export function Documentation() {
   const [searchQuery, setSearchQuery] = useState('');
   const { t } = useTranslation('pages/documentation');
 
-  const guides = [
+  const guides: Guide[] = [
     {
-      title: t('guides.sections.gettingStarted.title') || '',
+      title: t('guides.sections.gettingStarted.title'),
       icon: BookOpen,
-      description: t('guides.sections.gettingStarted.description') || '',
-      articles: t('guides.sections.gettingStarted.articles', { returnObjects: true }) || []
+      description: t('guides.sections.gettingStarted.description'),
+      articles: Array.isArray(t('guides.sections.gettingStarted.articles', { returnObjects: true })) 
+        ? t('guides.sections.gettingStarted.articles', { returnObjects: true })
+        : []
     },
     {
-      title: t('guides.sections.configuration.title') || '',
+      title: t('guides.sections.configuration.title'),
       icon: Settings,
-      description: t('guides.sections.configuration.description') || '',
-      articles: t('guides.sections.configuration.articles', { returnObjects: true }) || []
+      description: t('guides.sections.configuration.description'),
+      articles: Array.isArray(t('guides.sections.configuration.articles', { returnObjects: true }))
+        ? t('guides.sections.configuration.articles', { returnObjects: true })
+        : []
     },
     {
-      title: t('guides.sections.security.title') || '',
+      title: t('guides.sections.security.title'),
       icon: Shield,
-      description: t('guides.sections.security.description') || '',
-      articles: t('guides.sections.security.articles', { returnObjects: true }) || []
+      description: t('guides.sections.security.description'),
+      articles: Array.isArray(t('guides.sections.security.articles', { returnObjects: true }))
+        ? t('guides.sections.security.articles', { returnObjects: true })
+        : []
     },
     {
-      title: t('guides.sections.monitoring.title') || '',
+      title: t('guides.sections.monitoring.title'),
       icon: Bell,
-      description: t('guides.sections.monitoring.description') || '',
-      articles: t('guides.sections.monitoring.articles', { returnObjects: true }) || []
+      description: t('guides.sections.monitoring.description'),
+      articles: Array.isArray(t('guides.sections.monitoring.articles', { returnObjects: true }))
+        ? t('guides.sections.monitoring.articles', { returnObjects: true })
+        : []
     }
   ];
 
   const faqItems: FAQItem[] = Object.entries(
     t('faq.questions', { returnObjects: true }) || {}
-  ).map(([_, value]) => ({
+  ).map(([_, value]: [string, any]) => ({
     question: value?.question || '',
     answer: value?.answer || ''
   }));
 
-  const tutorials: Tutorial[] = t('tutorials.items', {
-    returnObjects: true,
-  }) || [];
+  const tutorialItems = t('tutorials.items', { returnObjects: true });
+  const tutorials: Tutorial[] = Array.isArray(tutorialItems) ? tutorialItems : [];
 
   const filteredGuides = guides.filter(
     (guide) =>
@@ -141,20 +155,19 @@ export function Documentation() {
                 </div>
                 <p className="text-gray-600 mb-6">{guide.description}</p>
                 <ul className="space-y-3">
-                  {Array.isArray(guide.articles) &&
-                    guide.articles.map((article, articleIndex) => (
-                      <li key={articleIndex}>
-                        <Link
-                          to={`/docs/${guide.title.toLowerCase()}/${article
-                            .toLowerCase()
-                            .replace(/\s+/g, '-')}`}
-                          className="flex items-center text-blue-600 hover:text-blue-700"
-                        >
-                          <ChevronRight className="h-4 w-4 mr-2" />
-                          {article}
-                        </Link>
-                      </li>
-                    ))}
+                  {guide.articles.map((article, articleIndex) => (
+                    <li key={articleIndex}>
+                      <Link
+                        to={`/docs/${guide.title.toLowerCase()}/${article
+                          .toLowerCase()
+                          .replace(/\s+/g, '-')}`}
+                        className="flex items-center text-blue-600 hover:text-blue-700"
+                      >
+                        <ChevronRight className="h-4 w-4 mr-2" />
+                        {article}
+                      </Link>
+                    </li>
+                  ))}
                 </ul>
               </div>
             ))}
@@ -207,35 +220,34 @@ export function Documentation() {
           </div>
 
           <div className="grid gap-8 lg:grid-cols-3">
-            {Array.isArray(tutorials) &&
-              tutorials.map((tutorial, index) => (
-                <div
-                  key={index}
-                  className="bg-white rounded-lg shadow-lg overflow-hidden"
-                >
-                  <div className="relative">
-                    <img
-                      src={`https://images.unsplash.com/photo-${
-                        index + 1
-                      }?auto=format&fit=crop&w=500&q=60`}
-                      alt={tutorial.title}
-                      className="w-full h-48 object-cover"
-                    />
-                    <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
-                      <Play className="h-12 w-12 text-white" />
-                    </div>
-                    <div className="absolute bottom-2 right-2 bg-black bg-opacity-75 text-white px-2 py-1 rounded text-sm">
-                      {tutorial.duration}
-                    </div>
+            {tutorials.map((tutorial, index) => (
+              <div
+                key={index}
+                className="bg-white rounded-lg shadow-lg overflow-hidden"
+              >
+                <div className="relative">
+                  <img
+                    src={`https://images.unsplash.com/photo-${
+                      index + 1
+                    }?auto=format&fit=crop&w=500&q=60`}
+                    alt={tutorial.title}
+                    className="w-full h-48 object-cover"
+                  />
+                  <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+                    <Play className="h-12 w-12 text-white" />
                   </div>
-                  <div className="p-6">
-                    <h3 className="text-lg font-bold text-gray-900 mb-2">
-                      {tutorial.title}
-                    </h3>
-                    <p className="text-gray-600">{tutorial.description}</p>
+                  <div className="absolute bottom-2 right-2 bg-black bg-opacity-75 text-white px-2 py-1 rounded text-sm">
+                    {tutorial.duration}
                   </div>
                 </div>
-              ))}
+                <div className="p-6">
+                  <h3 className="text-lg font-bold text-gray-900 mb-2">
+                    {tutorial.title}
+                  </h3>
+                  <p className="text-gray-600">{tutorial.description}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
